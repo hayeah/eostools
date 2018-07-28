@@ -1,4 +1,6 @@
-poll nodeos and print actions that match filtering conditions.
+It's hard to get a firehose of all actions, matched by account name or action name. See: [#3244](https://github.com/EOSIO/eos/issues/3244).
+
+This tool polls nodeos and prints all actions that match filtering conditions.
 
 ```
 go install github.com/hayeah/eostools/eos-actions
